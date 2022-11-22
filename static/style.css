@@ -1,0 +1,38 @@
+*{
+  padding:0;
+  margin:0;
+  scroll-behavior: smooth;
+}
+
+.packages{
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./images/beautiful-cryptocurrwncy-concept.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+form.agent-search{
+  border: 2px solid rgb(49, 49, 49);
+  width: fit-content;
+}
+input#search, button#submit{
+  border: none;
+}
+input#search{
+  outline: none;
+}
+.fa-brands:hover{
+  font-size: 1.5rem;
+}
+div.agent-detail{
+  transform:translateY(75px);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+}
+div.card-container{
+  overflow: hidden;
+}
+img.partners{
+  filter:grayscale(100%);
+  opacity: 0.8;
+}
